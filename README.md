@@ -123,7 +123,8 @@ This repository demonstrates solutions to three common challenges:
 ### Customer Pain Point 3: Manual Formatting Time
 **Solution:** 
 - Use Copilot Coding Agent to auto-generate instruction files
-- Refactor existing docs in 15 minutes vs. hours
+- Refactor existing docs in 15 minutes vs. hours (see [REFACTORING-GUIDE.md](REFACTORING-GUIDE.md))
+- Live demo included: Watch Copilot reorganize messy docs in 30 seconds
 - Maintain lightweight 2-page instructions
 - Let Memory handle dynamic patterns
 
@@ -179,6 +180,7 @@ This creates all 15 PRs automatically using GitHub CLI.
 
 - **[SETUP-GUIDE.md](SETUP-GUIDE.md)** - Complete demo preparation checklist
 - **[DEMO-SCRIPT.md](DEMO-SCRIPT.md)** - Detailed talking points and Q&A
+- **[REFACTORING-GUIDE.md](REFACTORING-GUIDE.md)** - How to refactor existing instructions with Copilot
 - **[DEMO-README.md](DEMO-README.md)** - Technical deep dive
 - **[demo-plan.md](demo-plan.md)** - Planning and strategy document
 
