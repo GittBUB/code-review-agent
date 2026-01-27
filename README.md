@@ -167,7 +167,7 @@ cd user-service && pytest --cov=. --cov-report=term-missing
 cd product-service && npm test
 ```
 
-### Create Demo PRs
+### Create Demo PRs and Issues
 ```bash
 ./setup-demo.sh
 ```
