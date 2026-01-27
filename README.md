@@ -13,10 +13,20 @@ This repository demonstrates solutions to three common challenges:
 ## 📋 Quick Start
 
 ### For Presenters
-1. Read [SETUP-GUIDE.md](SETUP-GUIDE.md) for complete demo preparation
-2. Review [DEMO-SCRIPT.md](DEMO-SCRIPT.md) for talking points
-3. Run `./setup-demo.sh` to create all 15 demo PRs
-4. Practice the 30-minute flow
+
+**⚠️ CRITICAL: Memory Setup Required**
+- Memory demonstration requires PRs merged 1-2 weeks BEFORE your demo
+- Memory processes patterns 24-48 hours after PR merge
+- Without pre-seeding, Memory learning won't appear during demo
+- See [MEMORY-SETUP-GUIDE.md](MEMORY-SETUP-GUIDE.md) for detailed timeline
+
+**Setup Steps:**
+1. Read [MEMORY-SETUP-GUIDE.md](MEMORY-SETUP-GUIDE.md) - Choose your demo approach (2 weeks, 4 days, or screenshots-only)
+2. Read [SETUP-GUIDE.md](SETUP-GUIDE.md) - Complete demo preparation checklist
+3. Review [DEMO-SCRIPT.md](DEMO-SCRIPT.md) - Familiarize yourself with talking points
+4. Follow [TESTING-CHECKLIST.md](TESTING-CHECKLIST.md) - Verify everything works before presenting
+5. Run `./setup-demo.sh` - Create all 15 demo PRs (do this AFTER Memory pre-seeding)
+6. Practice the 30-minute flow with actual Copilot feedback
 
 ### For Developers
 1. Read [DEMO-README.md](DEMO-README.md) for technical details
@@ -62,9 +72,11 @@ This repository demonstrates solutions to three common challenges:
 │   ├── pr14-quality-error-handling/    # Code quality issue
 │   └── pr15-quality-documentation/     # Code quality issue
 ├── setup-demo.sh                       # Automated PR creation script
+├── PR-DESCRIPTION-TEMPLATE.md          # Template for PR descriptions with Related Work
 ├── DEMO-README.md                      # Technical documentation
 ├── DEMO-SCRIPT.md                      # Presentation talking points
 ├── SETUP-GUIDE.md                      # Demo preparation guide
+├── MEMORY-SETUP-GUIDE.md               # Memory pre-seeding instructions
 └── demo-plan.md                        # Planning document
 ```
 
